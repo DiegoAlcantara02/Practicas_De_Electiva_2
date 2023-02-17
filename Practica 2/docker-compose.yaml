@@ -3,7 +3,7 @@ services:
     image: postgres
     ports:
     - 5432:5432
-    restart: aways
+    restart: always
     environment:
       POSTGRES_USER: docker
       POSTGRES_PASSWORD: docker
